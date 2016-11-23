@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		01192692D2E5C1A79A46C824 /* Pods_toolsapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22BBA40C20532B12D312826 /* Pods_toolsapp.framework */; };
+		2A413D2D1DE5BC8D005F155E /* sfzcx.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A413D2C1DE5BC8D005F155E /* sfzcx.storyboard */; };
+		2A413D311DE5BFEB005F155E /* SfzcxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A413D301DE5BFEB005F155E /* SfzcxViewController.swift */; };
 		2ADDB4E91DDED83300A98F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDB4E81DDED83300A98F1D /* AppDelegate.swift */; };
 		2ADDB4EB1DDED83300A98F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDB4EA1DDED83300A98F1D /* ViewController.swift */; };
 		2ADDB4EE1DDED83300A98F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADDB4EC1DDED83300A98F1D /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A413D2C1DE5BC8D005F155E /* sfzcx.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = sfzcx.storyboard; sourceTree = "<group>"; };
+		2A413D301DE5BFEB005F155E /* SfzcxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SfzcxViewController.swift; sourceTree = "<group>"; };
 		2ADDB4E51DDED83300A98F1D /* toolsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toolsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADDB4E81DDED83300A98F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ADDB4EA1DDED83300A98F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				2ADDB4EF1DDED83300A98F1D /* Assets.xcassets */,
 				2ADDB4F11DDED83300A98F1D /* LaunchScreen.storyboard */,
 				2ADDB4F41DDED83300A98F1D /* Info.plist */,
+				2A413D2C1DE5BC8D005F155E /* sfzcx.storyboard */,
+				2A413D301DE5BFEB005F155E /* SfzcxViewController.swift */,
 			);
 			path = toolsapp;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADDB4F31DDED83300A98F1D /* LaunchScreen.storyboard in Resources */,
+				2A413D2D1DE5BC8D005F155E /* sfzcx.storyboard in Resources */,
 				2ADDB4F01DDED83300A98F1D /* Assets.xcassets in Resources */,
 				2ADDB4EE1DDED83300A98F1D /* Main.storyboard in Resources */,
 			);
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A413D311DE5BFEB005F155E /* SfzcxViewController.swift in Sources */,
 				2ADDB4EB1DDED83300A98F1D /* ViewController.swift in Sources */,
 				2ADDB4E91DDED83300A98F1D /* AppDelegate.swift in Sources */,
 			);
